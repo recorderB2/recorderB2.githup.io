@@ -1,0 +1,181 @@
+body{background-color:  #cddaff;}
+/*-------------------------------------------------------------------------------------*/
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+    aspect-ratio: 1/1.8;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50vh;}
+/*-------------------------------------------------------------------------------------*/
+.image{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;}
+/*-------------------------------------------------------------------------------------*/
+.title{
+    color: #213252;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 8vw;
+    white-space: nowrap;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%);
+    top: 30%; 
+    left :50%;}   
+/*-------------------------------------------------------------------------------------*/
+.paragraph1{
+    color: #7b7f8f;
+    font-weight: 500;
+    font-size: 7vw;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%);
+    top: 39%;
+    left :50%;}
+.paragraph2{
+    color: #7b7f8f;
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 0vw;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%); 
+    top: 39%;
+    left :50%;}
+.paragraph3{
+    font-weight: 500;
+    color: #7b7f8f;
+    font-size: 0vw;
+    white-space: nowrap;
+    position: absolute;
+    transform: translate(-50%); 
+    top: 39%;
+    left :50%;}
+/*-------------------------------------------------------------------------------------*/
+.music_icon{
+    width: 20%;
+    position: absolute;
+    top:65%;
+    left: 5%;}
+/*-------------------------------------------------------------------------------------*/
+.plan{
+    color: #213252;
+    font-size: 7vw;
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 32%;}
+/*-------------------------------------------------------------------------------------*/
+.details{
+    color: #7b7f8f;
+    font-weight: 500;
+    font-size: 7vw;
+    position: absolute;
+    top: 71%;
+    left: 32%;}
+/*-------------------------------------------------------------------------------------*/
+.change_link{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    position: absolute;
+    top: 76%;
+    left: 38%;}
+.change_link:hover{
+    opacity: 0.5;
+    text-decoration: none;}
+/*-------------------------------------------------------------------------------------*/
+.button{
+    background-color: #382AE1;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 7vw;
+    border: none;
+    border-radius: 0.5em ;
+    box-shadow: 0px 10px 10px rgb(207, 207, 207);
+    width: 86%;
+    height: 8%;
+    white-space: nowrap;
+    position: absolute;
+    transform: translate(-50%);
+    top: 83%;
+    left: 50%;}
+.button:hover {
+     opacity: 0.5;
+     cursor: pointer;}
+/*-------------------------------------------------------------------------------------*/
+.cancel{
+    color: #7b7f8f;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: 94%;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 5vw;
+    white-space: nowrap;}
+.cancel:hover{opacity: 0.5;}
+/*-------------------------------------------------------------------------------------*/
+@media screen and (min-width:250px){
+    .title{top: 32%;}
+    .paragraph1{font-size: 0px;}
+    .paragraph2{font-size: 5.5vw; top: 42%;}
+    .plan{top: 63%;}  
+    .details{top:69%;} 
+    .change_link{top: 74%;}
+    .button{top: 82%;}
+    .cancel{top: 93%;}}  
+/*-------------------------------------------------------------------------------------*/
+@media screen and (min-width:275px){
+    .music_icon{top: 63%;}
+    .change_link{top: 68%; left: 75%;}
+    .plan{left: 28%;}
+    .details{left: 28%;}
+    .button{top: 80%;}
+    .cancel{top: 92%;}
+    @media screen and (min-width:351px) {
+        body{
+            background-image: url("image/ylhoe/order-summary-component-main/images/pattern-background-desktop.svg");
+            background-repeat: no-repeat;}
+        .card{
+        width: 54vh;
+        transform: translateX(-50%);
+        left: 50%;
+        top: 8vh;
+        aspect-ratio: 1/1.45;}
+        .title{
+            font-size: 22px;
+            top: 41%;}
+        .paragraph2{
+            font-size: 0px;}
+        .paragraph3{
+            font-size: 14px;
+            top: 49%;
+            line-height: 150%;}
+        .plan{
+            font-size: 15px;
+            top: 68%;
+            left: 34%;}
+        .details{
+            font-size: 14px;
+            top: 73%;
+            left: 34%;}
+        .change_link{
+            font-size: 14px;
+            top: 71%;
+            left: 70%;}
+        .music_icon{
+            width: 40px;
+            top: 68%;
+            left: 18%;}
+        .button{
+            width: 270px;
+            height: 40px;
+            top: 81%;
+            font-size: 14px;}
+        .cancel{
+            top: 94%;
+            font-size: 13px;}}}
+/*-------------------------------------------------------------------------------------*/
